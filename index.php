@@ -2,7 +2,7 @@
     <title>PHP PROJECT</title>
 <?php 
     $host=getenv('MYSQL_HOST', true) ?: 'localhost';
-    $db=getenv('MYSQL_DATABASE', true) ?:'mysqldb';
+    $db=getenv('MYSQL_DATABASE', true) ?:'mydb';  
     $username=getenv('MYSQL_USER', true) ?: 'admin';
     $password=getenv('MYSQL_PASSWORD', true) ?: 'admin123';
     $port=getenv("MYSQL_PORT", true) ?: '9001';
