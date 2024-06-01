@@ -1,7 +1,7 @@
 <html>
     <title>PHP PROJECT</title>
 <?php 
-    $host=getenv('MYSQL_HOST', true) ?: 'localhost';
+    $host=getenv('MYSQL_HOST', true) ?: 'db';
     $db=getenv('MYSQL_DATABASE', true) ?:'mydb';  
     $username=getenv('MYSQL_USER', true) ?: 'admin';
     $password=getenv('MYSQL_PASSWORD', true) ?: 'admin123';
