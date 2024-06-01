@@ -9,6 +9,6 @@ RUN apt-get update && apt-get upgrade -y && docker-php-ext-install mysqli pdo pd
 ENV MYSQL_HOST=db
 ENV MYSQL_USER=admin
 ENV MYSQL_PASSWORD=123
-ENV MYSQL_DB=mysqldb
+ENV MYSQL_DATABASE=mysqldb
 ENV MYSQL_PORT=3306
 EXPOSE 80
